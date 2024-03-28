@@ -1,0 +1,23 @@
+.container-testimonial{
+    border: 1px solid green;
+    border-radius: 2rem;
+    min-height: 7rem;
+    max-width: 55rem;
+    margin-top: 2.5rem;
+    
+   
+}
+.pimg{
+    border-radius: 50px;
+}
+.arrow-icon{
+    background-color: #f9ab00;
+    border-radius: 1rem;
+    width: 2rem;
+    height: 2rem;
+    transition: all 1.1s;
+  }
+  .arrow-icon:hover{
+    background-color: white;
+    transform: scale(1.1);
+  }

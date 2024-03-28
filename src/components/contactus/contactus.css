@@ -1,0 +1,31 @@
+.container-contactus{   
+    margin: auto auto !important;
+    justify-content: center;   
+    padding-top: 4rem  ;
+   
+}
+.icon-text,.icon-value{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left !important;
+}
+.form-contact{
+  
+    border-radius: 2rem !important;
+    background-color:silver !important;
+    border: 3px darkgreen solid !important;
+   
+}
+@media screen and (min-width: 768px) {
+    .form-contact{
+        width: 200%;
+    }    
+  }
+
+  .address-item{
+    transition: all 1s;
+  }
+  .address-item:hover{
+    transform: scale(1.1);
+    background-color: darkgreen;
+    color: white;
+  }

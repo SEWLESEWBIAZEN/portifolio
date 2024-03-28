@@ -1,0 +1,27 @@
+.card-hover >div{
+    transition: all 1.1s;
+    border-radius: 10px;
+    
+}
+
+.card-hover >div:hover{
+    transform: scale(1.1);
+    background-color:gainsboro;
+
+}
+
+.card-description{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.overlay-text{
+position: absolute;
+  top: 120px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+.cimg{
+    border-radius: 25px;
+}

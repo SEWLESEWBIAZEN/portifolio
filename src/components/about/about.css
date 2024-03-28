@@ -1,0 +1,33 @@
+td{
+    text-align: start !important;
+}
+p{
+    font-weight: 500;
+}
+.profile-picture{
+    border-radius: 150px;
+}
+.title-line{
+    width: 6%;   
+    border:2px darkgreen solid;
+    margin-top: -4px;
+    border-radius: 2px;
+ 
+   
+}
+.about-last-paragraph{
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.divider-line{
+   transform: rotate(90deg);
+   border:2px darkgreen solid;
+   margin: auto 1px;
+   width: 100%;
+}
+.basic-info, .background{
+    
+    border-radius: 3rem;
+    padding: 2rem;
+    background-color: rgba(245, 245, 245, 0.082);
+}

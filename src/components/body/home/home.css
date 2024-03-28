@@ -1,0 +1,10 @@
+.shadow{
+    box-shadow: 2px 2px 1px darkgreen;
+}
+.f-new h1{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color:'darkgreen';
+}
+.f-new p{
+    font-family: cursive;
+}

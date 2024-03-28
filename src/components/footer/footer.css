@@ -1,0 +1,47 @@
+.footer{
+    background-color: rgb(2, 65, 2);
+    margin:auto 2rem;
+    border-radius: 2rem;
+    height:fit-content;
+    padding-bottom: 2rem;
+   
+}
+.copyright{
+    bottom: 1%;
+}
+.link a, .link h1{
+    margin: 1.5rem;
+    color: white !important;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline !important;
+    text-transform: capitalize;
+   
+}
+ .link h6{
+    margin: 1.5rem;
+    color: #f9ab00;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+    text-transform: capitalize;
+    
+
+ }
+.form-input{
+    border-radius: 2px;
+}
+.form{
+    width: fit-content;
+    margin-top: 2px !important;
+}
+.links-label{
+    margin-bottom: -1.2rem;
+}
+.facebook:hover,
+.instagram:hover,
+.twitter:hover,
+.github:hover,
+.linkedin:hover{
+    color: #f9ab00;
+    &:after{
+        content: "Facebook";
+    }
+}
