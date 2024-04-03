@@ -1,3 +1,7 @@
+.card .card-img-top{
+    cursor:pointer;
+}
+
 .card .card-img-top:hover{
     opacity: 50%;
 

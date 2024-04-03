@@ -14,7 +14,7 @@ const Next = ({index,setIndex,data}) => {
   }
 
   return (
-    <FontAwesomeIcon className="m-auto arrow-icon" icon={faArrowRight} onClick={nextClickHandler} />
+    <FontAwesomeIcon style={{cursor:'pointer'}} className="m-auto arrow-icon" icon={faArrowRight} onClick={nextClickHandler} />
   )
 }
 

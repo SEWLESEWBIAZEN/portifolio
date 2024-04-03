@@ -9,9 +9,8 @@ const Stars = ({star}) => {
         return (
           <>
             <label className="mx-1">              
-              <FontAwesomeIcon color="#f9ab00" icon={faStar}/>
+              <FontAwesomeIcon style={{cursor:'pointer'}} color="#f9ab00"  icon={faStar}/>
             </label>
-
           </>
         );
       })}({star} of 5)

@@ -14,7 +14,7 @@ const Previous = ({index,setIndex,data}) => {
   }
   
   return (
-    <FontAwesomeIcon className="m-auto arrow-icon" onClick={previousClickHandler} icon={faArrowLeft} />
+    <FontAwesomeIcon style={{cursor:'pointer'}} className="m-auto arrow-icon" onClick={previousClickHandler} icon={faArrowLeft} />
   )
 }
 
