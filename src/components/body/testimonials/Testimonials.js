@@ -6,7 +6,7 @@ import Angla from "../../../assets/images/Angla.jpg"
     {
         "picture":Angla,
         "name":"Angla Mawton",
-        "description":"Sewlesew is super skilled in all kinds of frontend coding. He has been a real asset throughout the project and we would gladly work with him again if new needs arise.",
+        "description":"Sewlesew is highly skilled in frontend coding and has been a valuable asset to the project. We would be happy to work with him again if there are new requirements.",
         "star":5
     },
     {

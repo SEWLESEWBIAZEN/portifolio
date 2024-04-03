@@ -39,7 +39,6 @@ const CardItem = ({
     }
   }
 
-
   return (
     <div className="d-xs-block d-md-flex justify-content-center mx-auto mb-3 card-hover">
       {cards.map((card, index) => (
@@ -68,6 +67,7 @@ const CardItem = ({
             </p>
           </div>
           <button
+            ref={card.ref}
             className="btn btn-success btn-outline-warning"
             onClick={(e) => btnClickHandler(e,index)}>
             {btnText}

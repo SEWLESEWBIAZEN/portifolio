@@ -4,6 +4,7 @@ import React from "react";
 import Home from "./home/Index";
 import Services from "./servicesection/Index";
 import Testimonials from "./testimonials/Index";
+import Projects from "../projects/Index";
 
 const Index = () => {
   return (
@@ -12,6 +13,8 @@ const Index = () => {
       <hr />
       <Services />
       <hr className="text-success" />
+      <Projects/>
+      <hr className="text-success"/>
       <Testimonials />
     </div>
   );

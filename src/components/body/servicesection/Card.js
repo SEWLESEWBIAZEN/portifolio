@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import React,{useRef, useState} from 'react'
 import CardItem from './CardItem'
 import img from '../../../assets/images/programmer_profile.png'
 import Rimg from '../../../assets/images/React.jpg'
@@ -9,6 +9,9 @@ const Card = () => {
   const [showReact,setShowReact]=useState(false);
   const [showMaterialUI,setShowMaterialUI]=useState(false);
   const [showBootstrap,setShowBootstrap]=useState(false);
+  const reactRef=useRef()
+  const materialRef=useRef()
+  const bootstrapRef=useRef()
   
   const cards=[
   {
@@ -17,7 +20,8 @@ const Card = () => {
     togglableText:" where creativity knows no bounds. Fuelled by curiosity, I'm always on the lookout for new technologies and trends, eager to expand my skills and push boundaries. Let's join forces and turn your vision into reality — together, we'll create something truly extraordinary!",
     overlayText:"React",
     show:showReact,
-    githubLink:"https://github.com/SEWLESEWBIAZEN/UserrequestManagementPortal/tree/main/id-request-form"
+    githubLink:"https://github.com/SEWLESEWBIAZEN/UserrequestManagementPortal/tree/main/id-request-form",
+    ref:reactRef
 
     
   },
@@ -27,7 +31,8 @@ const Card = () => {
     togglableText: "I meticulously customize Material UI themes and components to align with project requirements and branding guidelines. From responsive layouts to interactive elements, my proficiency in Material UI empowers me to deliver intuitive and engaging user experiences that captivate and delight. Whether it's optimizing performance or implementing complex UI features, I thrive on pushing the boundaries of what's possible with Material UI. Let's collaborate and elevate your project to new heights with the magic of Material UI craftsmanship." ,
     overlayText:"Material UI",
     show:showMaterialUI,
-    githubLink:"https://github.com/SEWLESEWBIAZEN/Tour-MUI"
+    githubLink:"https://github.com/SEWLESEWBIAZEN/Tour-MUI",
+    ref:materialRef
     
   },
   {
@@ -36,7 +41,8 @@ const Card = () => {
     togglableText:"adapt to various screen sizes and devices. From stylish navigation bars to interactive modals, my proficiency in Bootstrap allows me to create polished and user-friendly interfaces with ease. Whether it's customizing themes, optimizing performance, or ensuring cross-browser compatibility, I harness the full potential of Bootstrap to elevate every project I touch. Let's collaborate and bring your vision to life with the precision and finesse of Bootstrap craftsmanship.",
     overlayText:"Bootstrap and CSS",
     show:showBootstrap,
-    githubLink:"https://github.com/SEWLESEWBIAZEN/Amhara-Bank-Internet-Banking"
+    githubLink:"https://github.com/SEWLESEWBIAZEN/Amhara-Bank-Internet-Banking",
+    ref:bootstrapRef
     
   }
   
