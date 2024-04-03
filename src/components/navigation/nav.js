@@ -13,7 +13,7 @@ const NavBar = () => {
     <div>
       <nav class="navbar navbar-expand-lg bg-success bg-body-primary fixed-top">
         <div class="container-fluid container">
-          <a class="navbar-brand" href="/">
+          <a style={{cursor:'pointer'}} class="navbar-brand" href="/">
             SB
           </a>
           <button

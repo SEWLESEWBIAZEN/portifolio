@@ -17,7 +17,7 @@ const Index = () => {
       <div className="d-xs-block d-sm-flex">
         <Previous index={index} setIndex={setIndex} data={data} />
         <div className="container container-testimonial d-xs-block d-sm-flex mb-4 p-4">
-          <TestimonyPicture image={data[index].picture} name={data[index].name} />
+          <TestimonyPicture style={{cursor:'pointer'}} image={data[index].picture} name={data[index].name} />
           <TestimonyText data={data[index]} />
         </div>
         <Next index={index} setIndex={setIndex} data={data} />
