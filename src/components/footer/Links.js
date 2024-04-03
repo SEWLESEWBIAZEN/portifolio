@@ -1,17 +1,16 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./footer.css";
 
 const Links = () => {
   return (
-    <div className="d-block my-auto">
-      <h5 className="text-warning links-label">Links</h5>      
-      <div className="d-xs-block d-sm-flex flex-wrap link mx-auto px-2 mt-0">
-      <Link to='./'>Home </Link>
-      <Link to='./'>Portifolios</Link>
-      <Link to='./'>About Me </Link>
-      <Link to='/contact-me'>Contact Me </Link>
-      <Link to='./'>Testimonials</Link>
+    <div className="d-flex flex-xs-column flex-md-row  my-auto">
+      <h5 className="text-warning text-center ms-3">Links</h5>      
+      <div className="d-flex flex-xs-column flex-sm-row flex-wrap link mx-auto px-2 mt-0">
+      <a  className="footer-links" href='#home'>Home </a>
+      <a className="footer-links" href='#showcases'>Portifolios</a>
+      <a className="footer-links" href='/about-me'>About Me </a>
+      <a className="footer-links" href='/contact-me'>Contact Me </a>
+      <a className="footer-links" href='#witnesses'>Testimonials</a>
     </div>
     </div>   
   );

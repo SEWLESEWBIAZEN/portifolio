@@ -5,9 +5,9 @@ import './contactus.css'
 
 const Index = () => {
   return (
-    <div className='d-xs-block d-md-flex m-auto container container-contactus'>
+    <div className='d-xs-block d-sm-flex container container-contactus'>
         <ContactAddress/>
-        <ContactForm/>        
+        {/* <ContactForm/>         */}
     </div>
   )
 }

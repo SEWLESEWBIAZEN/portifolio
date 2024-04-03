@@ -1,5 +1,5 @@
 .container-contactus{   
-    margin: auto auto !important;
+    margin: auto auto ;
     justify-content: center;   
     padding-top: 4rem  ;
    
@@ -17,7 +17,7 @@
 }
 @media screen and (min-width: 768px) {
     .form-contact{
-        width: 200%;
+        width: 150%;
     }    
   }
 

@@ -39,19 +39,6 @@ const CardItem = ({
     }
   }
 
-  // const buttons=document.querySelectorAll('button')
-  //  buttons.forEach(button=>{
-  //   button.addEventListener('click',(event)=>{
-  //     if(this.btnText==="Learn More..."){
-  //       this.setBtnText="Learn Less..."
-  //     }
-  //     else if(btnText==="Learn Less..."){
-  //       setBtnText("Learn More...")
-  //     }
-      
-
-  //   })
-  //  })
 
   return (
     <div className="d-xs-block d-md-flex justify-content-center mx-auto mb-3 card-hover">

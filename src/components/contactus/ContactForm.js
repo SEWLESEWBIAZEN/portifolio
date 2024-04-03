@@ -24,10 +24,10 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="my-2 mx-auto d-block">
+    <div className="my-2 mx-auto d-block ">
       <h2>Contact Me</h2>
       <form onSubmit={handleSubmit} className='form-control form-contact '>
-        <div className="mb-3 d-block">
+        <div className="mb-3 ">
           <label htmlFor="name" className="form-label mb-0">Name</label>
           <input type="text" className="form-control" id="name" name="name" 
           value={formData.name} onChange={handleChange} required />

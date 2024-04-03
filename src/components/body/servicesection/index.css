@@ -14,7 +14,7 @@
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 .overlay-text{
-position: absolute;
+  position: absolute;
   top: 120px;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -24,4 +24,7 @@ position: absolute;
 }
 .cimg{
     border-radius: 25px;
+}
+.container{
+    width:100%;    
 }

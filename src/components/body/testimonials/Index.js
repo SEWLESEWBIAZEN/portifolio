@@ -11,7 +11,7 @@ const Index = () => {
   const [index, setIndex] = useState(0);
 
   return (
-    <section id="testimonials">
+    <section id="witnesses" >
     <div className="d-block">
       <h3 className="text-center">TESTIMONIALS</h3>
       <div className="d-xs-block d-sm-flex">

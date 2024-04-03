@@ -45,3 +45,7 @@
         content: "Facebook";
     }
 }
+
+.footer-links{
+    cursor: pointer;
+}

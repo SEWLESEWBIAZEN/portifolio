@@ -2,11 +2,11 @@ import React from "react";
 
 const Main = () => {
   return (
-    <div className="main container flex-wrap">
+    <div className="main  flex-wrap">
       {/* Mapping over the categories */}
-      <div className="work col-3">
+      <div className="work  col-xs-12 col-sm-6 col-md-5 col-lg-3">
       <h2> Work Experiences</h2>
-      <ul className="">
+      <ul className="work__experiences">
         <h5>Trainee Programmer</h5>
         <li>
           <p>Company: AdIB</p>
@@ -31,7 +31,7 @@ const Main = () => {
       </ul>
       </div>
       {/* projects */}
-      <div className="project col-3">
+      <div className="project col-xs-12 col-sm-6 col-md-5 col-lg-3">
       <h2>Projects</h2>
       <ul className="">
         <h5>LSeth2023</h5>
@@ -86,7 +86,7 @@ const Main = () => {
       
     {/* trainings */}
 
-    <div className="training col-3">
+    <div className="training col-xs-12 col-sm-6 col-md-5 col-lg-3">
       <h2>Trainings</h2>
       <ul className="">
         <h5>DevOps Master Class</h5>

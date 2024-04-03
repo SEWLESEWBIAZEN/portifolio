@@ -1,24 +1,14 @@
 import React from "react";
-import { Link, useLocation } from "react-router-dom";
-import "./nav.css";
-
 /** font awesome imports */
+import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
+
+
+import "./nav.css";
 import SocialMedia from "../footer/SocialMedia";
 
 const NavBar = () => {
-
-  const location = useLocation();
-  const { pathname } = location;
-
-  const scrollToSection = (id) => {
-    const section = document.getElementById(id);
-    section.scrollIntoView({ behavior: "smooth" });
-    
-  };
-
-  //const [active,setActive]= useState("home");
   return (
     <div>
       <nav class="navbar navbar-expand-lg bg-success bg-body-primary fixed-top">
@@ -43,25 +33,24 @@ const NavBar = () => {
           >
             <ul className="navbar-nav mx-auto mb-2 mb-lg-0 ">
               <li className="nav-item">
-                <Link className="nav-link" aria-current="page" to="/">
+                <Link className="nav-link" aria-current="page" to="./#home">
                   Home
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="about-me">
+                <Link className="nav-link" to="/about-me">
                   About Me
                 </Link>
               </li>
               <li class="nav-item">
-                <Link className="nav-link" to="my-cv">
+                <Link className="nav-link" to="/my-cv">
                   Resume
                 </Link>
               </li>
               <li className="nav-item">
                 <Link
                   className="nav-link"
-                  to="./"
-                  onClick={(pathname==='/')?() => scrollToSection("service"):""}
+                  to="./#showcases"                 
                 >
                   My Portifolios
                 </Link>
@@ -69,14 +58,13 @@ const NavBar = () => {
               <li className="nav-item">
                 <Link
                   className="nav-link"
-                  to="./"
-                  onClick={(pathname==='/')?() => scrollToSection("testimonials"):""}
+                  to="./#witnesses"                  
                 >
                   My Testimonials
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="contact-me" aria-disabled="true">
+                <Link className="nav-link" to="/contact-me" aria-disabled="true">
                   Contact Me
                 </Link>
               </li>

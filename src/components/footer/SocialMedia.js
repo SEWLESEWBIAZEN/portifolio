@@ -13,7 +13,7 @@ import {
 
 const SocialMedia = () => {
   return (
-    <div className="d-flex ">
+    <div className="d-flex flex-wrap ">
         
       <a href="https://www.facebook.com" className="mx-2">
         <FontAwesomeIcon className='facebook' color="white" icon={faFacebook} />

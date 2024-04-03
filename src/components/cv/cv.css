@@ -1,9 +1,7 @@
-.cv-container{    
-  
-    margin: 4rem auto auto;
+.cv-container{   
+      margin: 4rem auto auto;
 }
-.main{
-    
+.main{    
     display: flex;
     justify-content: center;
 }
@@ -19,31 +17,50 @@
 }
 h2,h5{
     text-align: left;
-    font-weight: bolder;
-}
+    font-weight: bolder;}
 h2{
     margin: 1rem;
 }
 
-.work,.training,.project{
+.work,.training,.project{    
+    height: fit-content;
     border: 1px darkgreen solid;
     border-radius: 2rem; 
-    margin: 2rem;      
+    margin: 0.2rem;      
     padding: 3rem auto auto;
-    transition: all 3s;
-      
-    
+    transition: all 3s;    
+    align-items: flex-start;
+    justify-content: flex-start;     
 }
 h5{
     color: darkgreen;
     margin-top: 3rem;
 }
+
+.work__experiences{
+    width: fit-content;
+    height: fit-content;
+}
+.work__experiences ul{
+    justify-content: center;
+}
+.project ul li,
+.work ul li,
+.training ul li
+{
+    justify-content: center;
+    margin-top:-1rem ;
+    margin-bottom:-1.3rem ;
+}
+li p{
+    line-height: 20px;
+    letter-spacing: normal;
+    padding:1rem;
+}
 .work:hover,.training:hover,.project:hover{
     transform: scale(1.1);
     background-color: darkgreen;
-    color: white !important;
-    
-
+    color: white !important;   
 }
 
 li{
@@ -52,4 +69,12 @@ li{
 h5{
     color: darkgreen;
     margin-top: 3rem;
+}
+
+@media screen and(max-width:650px){
+    li p{
+        font-size: 10px;
+
+    }
+ 
 }

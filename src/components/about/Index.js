@@ -4,8 +4,8 @@ import './about.css'
 
 const About = () => {
   return (
-    <div className="container d-block background">
-      <div className="d-block">
+    <div className="container d-block background" id="about">
+      <div className="d-block px-2">
        <br/>  <br/>
         <h1 className="title">About</h1>
         < div className="title-line mx-auto mb-2"></div>
@@ -18,8 +18,8 @@ const About = () => {
         </p>
         <br/><br/>
         <div className="d-xs-block d-md-flex justify-content-between ">
-          <img className=" me-4 profile-picture my-auto" width={300} height={300} src={pimg} />
-          <div className="d-block">
+         
+          <div className="d-block ">
             <h3>Front-End Developer/ React Developer</h3>
             
             <p className="text-left">
@@ -27,7 +27,9 @@ const About = () => {
             leveraging React to create resilient and intuitive user experiences. 
               
             </p>  <br/><br/>
-            <div className="d-xs-block d-sm-flex basic-info ">
+
+            <img className=" me-4 profile-picture my-auto" width={300} height={300} src={pimg} />
+            <div className=" d-xs-block d-md-flex flex-wrap basic-info ">
               <div className="me-2">                
                 <tr>
                   <td>                   
@@ -53,7 +55,7 @@ const About = () => {
                     <p>Addis Ababa, Ethiopia</p>
                   </td>
                 </tr>
-                <tr>
+                <tr className="flex-wrap">
                   <td>                   
                     <h5>Email Address:</h5>
                   </td>
