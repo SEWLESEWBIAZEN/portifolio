@@ -1,10 +1,19 @@
 import React from 'react'
 import Project from './Project'
-import { abaib,restaurant,tictactoe,gpt3 } from './ImageExport'
-// {githubLink, websiteLink,description,name,imgUrl}
+import { abaib,restaurant,tictactoe,gpt3,hoobank } from './ImageExport'
+
 const Projects = () => {
   return (
     <div className='container justify-content-center d-flex flex-wrap'>
+        <Project        
+        name="Payment Method named as HooBank UI/UX Website"
+        description="A pixel-perfet ui/ux website made with react, tailwind css and html5. 
+        It has many sections as full-fledged payment system website user experience. HooBank is a digital payment system 
+        you can use to pay fast and efficiently."
+        githubLink="https://github.com/SEWLESEWBIAZEN/pay-better.github.io"
+        websiteLink="https://pay-better.netlify.app"
+        imgUrl={hoobank}
+        />
         <Project        
         name="Restaurant UI/UX Website"
         description="A pixel-perfet ui/ux website made with react, custom css and html5. It has many sections as full-fledged restaurant ui/ux website"
@@ -16,7 +25,7 @@ const Projects = () => {
         name="GPT-3 UI/UX website"
         description="A pixel-perfet ui/ux website made with react, custom css and html5. It has many sections as full-fledged gpt-3 ui/ux website.It has a complete graphics and images."
         githubLink="https://github.com/SEWLESEWBIAZEN/gpt3_sewdevs.github.io"
-        websiteLink="https://gpt3-sewdevs.netlify.app"
+        websiteLink="https://gpt-three-3.netlify.app"
         imgUrl={gpt3}
         />
 
@@ -34,9 +43,7 @@ const Projects = () => {
         githubLink="https://github.com/SEWLESEWBIAZEN/Amhara-Bank-Internet-Banking"
         websiteLink="https://abaib.netlify.app"
         imgUrl={abaib}
-        />       
-       
-      
+        />
        
     </div>
   )

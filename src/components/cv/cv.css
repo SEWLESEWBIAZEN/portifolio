@@ -22,45 +22,9 @@ h2{
     margin: 1rem;
 }
 
-.work,.training,.project{    
-    height: fit-content;
-    border: 1px darkgreen solid;
-    border-radius: 2rem; 
-    margin: 0.2rem;      
-    padding: 3rem auto auto;
-    transition: all 3s;    
-    align-items: flex-start;
-    justify-content: flex-start;     
-}
 h5{
     color: darkgreen;
     margin-top: 3rem;
-}
-
-.work__experiences{
-    width: fit-content;
-    height: fit-content;
-}
-.work__experiences ul{
-    justify-content: center;
-}
-.project ul li,
-.work ul li,
-.training ul li
-{
-    justify-content: center;
-    margin-top:-1rem ;
-    margin-bottom:-1.3rem ;
-}
-li p{
-    line-height: 20px;
-    letter-spacing: normal;
-    padding:1rem;
-}
-.work:hover,.training:hover,.project:hover{
-    transform: scale(1.1);
-    background-color: darkgreen;
-    color: white !important;   
 }
 
 li{
@@ -71,6 +35,26 @@ h5{
     margin-top: 3rem;
 }
 
+.resume img
+{
+    box-shadow: 0px 0px 12px green;
+}
+.resume img:hover{
+    opacity: 100%;
+}
+.card{
+    z-index: 2;
+    transition: ease 0.5s;
+    box-shadow: 2px 2px 12px green;
+}
+.card:hover
+{
+    opacity: 85%;
+    transform: scale(1.01);
+}
+
+
+
 @media screen and(max-width:650px){
     li p{
         font-size: 10px;
@@ -78,3 +62,5 @@ h5{
     }
  
 }
+
+
